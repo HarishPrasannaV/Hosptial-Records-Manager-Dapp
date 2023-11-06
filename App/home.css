@@ -1,0 +1,292 @@
+.home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-button {
+    top: 0px;
+    color: rgb(255, 255, 255);
+    right: 0px;
+    width: 117px;
+    height: 46px;
+    padding: 1px;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #000000;
+    text-align: center;
+    transition: 0.3s;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 0px;
+    background-color: rgb(255, 162, 0);
+    border-top-left-radius: 1;
+    border-top-right-radius: 1;
+    border-bottom-left-radius: 1;
+    border-bottom-right-radius: 1;
+  }
+  .home-button:hover {
+    color: #09ff1f;
+  }
+  .home-text {
+    top: 8px;
+    left: 543px;
+    color: #ff0000;
+    width: 390px;
+    height: 58px;
+    position: absolute;
+    text-align: center;
+  }
+  .home-text01 {
+    top: 112px;
+    left: 14px;
+    color: rgb(255, 0, 0);
+    width: 390px;
+    height: 58px;
+    position: absolute;
+    text-align: left;
+  }
+  .home-text02 {
+    top: 114px;
+    left: 507px;
+    color: rgb(255, 0, 0);
+    width: 390px;
+    height: 58px;
+    position: absolute;
+    text-align: left;
+  }
+  .home-textinput {
+    top: 158px;
+    left: 25px;
+    position: absolute;
+    margin-top: 10px;
+  }
+  .home-textinput01 {
+    top: 195px;
+    left: 25px;
+    position: absolute;
+    margin-top: 10px;
+  }
+  .home-textinput02 {
+    top: 231px;
+    left: 25px;
+    position: absolute;
+    margin-top: 10px;
+  }
+  .home-textinput03 {
+    top: 267px;
+    left: 25px;
+    position: absolute;
+    margin-top: 10px;
+  }
+  .home-textinput04 {
+    top: 304px;
+    left: 25px;
+    position: absolute;
+    margin-top: 10px;
+  }
+  .home-textinput05 {
+    top: 341px;
+    left: 25px;
+    position: absolute;
+    margin-top: 10px;
+  }
+  .home-textinput06 {
+    top: 377px;
+    left: 25px;
+    position: absolute;
+    margin-top: 10px;
+  }
+  .home-textinput07 {
+    top: 413px;
+    left: 25px;
+    position: absolute;
+    margin-top: 10px;
+  }
+  .home-textinput08 {
+    top: 450px;
+    left: 25px;
+    position: absolute;
+    margin-top: 10px;
+  }
+  .home-button1 {
+    top: 505px;
+    left: 71px;
+    color: rgb(255, 255, 255);
+    width: 91px;
+    display: flex;
+    position: absolute;
+    box-shadow: rgb(255, 0, 0) 5px 5px 10px 0px;
+    text-align: left;
+    transition: 0.3s;
+    border-width: 0px;
+    padding-left: 0px;
+    border-radius: 0px;
+    padding-right: 0px;
+    background-color: rgb(253, 8, 8);
+  }
+  .home-button1:hover {
+    box-shadow: 5px 5px 10px 0px #03ff48;
+    background-color: #73fd08;
+  }
+  .home-button2 {
+    top: 266px;
+    left: 619px;
+    color: rgb(255, 255, 255);
+    width: 94px;
+    display: flex;
+    position: absolute;
+    box-shadow: rgb(255, 0, 0) 5px 5px 10px 0px;
+    text-align: left;
+    transition: 0.3s;
+    border-width: 0px;
+    padding-left: 0px;
+    border-radius: 0px;
+    padding-right: 0px;
+    background-color: rgb(253, 8, 8);
+  }
+  .home-button2:hover {
+    box-shadow: 5px 5px 10px 0px #03ff48;
+    background-color: #73fd08;
+  }
+  .home-button3 {
+    top: 557px;
+    left: 645px;
+    color: rgb(255, 255, 255);
+    width: 35px;
+    height: 28px;
+    display: flex;
+    position: absolute;
+    box-shadow: rgb(255, 0, 0) 5px 5px 10px 0px;
+    text-align: center;
+    transition: 0.3s;
+    border-width: 0px;
+    padding-left: 0px;
+    border-radius: 0px;
+    padding-right: 0px;
+    background-color: rgb(253, 8, 8);
+  }
+  .home-button3:hover {
+    box-shadow: 5px 5px 10px 0px #03ff48;
+    background-color: #73fd08;
+  }
+  .home-text04:hover {
+    box-shadow: 5px 5px 10px 0px #03ff48;
+    background-color: #73fd08;
+  }
+  .home-feature-card {
+    left: 20px;
+    width: 881px;
+    bottom: 78px;
+    height: 154px;
+    display: flex;
+    padding: var(--dl-space-space-unit);
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #b5aa4e;
+    align-items: flex-start;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .home-icon {
+    fill: var(--dl-color-gray-500);
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+    margin-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-container1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .home-text06 {
+    font-weight: 600;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-feature-card1 {
+    top: 127px;
+    right: 54px;
+    width: 442px;
+    height: 592px;
+    display: flex;
+    padding: var(--dl-space-space-unit);
+    position: absolute;
+    max-width: var(--dl-size-size-maxwidth);
+    box-shadow: 5px 5px 10px 0px #ff1a1a;
+    align-items: flex-start;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .home-icon2 {
+    fill: var(--dl-color-gray-500);
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text08 {
+    font-weight: 600;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text09 {
+    color: var(--dl-color-gray-700);
+  }
+  .home-textinput09 {
+    top: 175px;
+    left: 555px;
+    position: absolute;
+  }
+  .home-textinput10 {
+    top: 215px;
+    left: 556px;
+    position: absolute;
+  }
+  .home-textinput11 {
+    top: 509px;
+    left: 558px;
+    position: absolute;
+    text-align: center;
+  }
+  .home-textinput12 {
+    top: 469px;
+    left: 557px;
+    position: absolute;
+    text-align: center;
+  }
+  .home-textinput13 {
+    top: 429px;
+    left: 556px;
+    position: absolute;
+    text-align: center;
+  }
+  .home-text10 {
+    top: 374px;
+    left: 594px;
+    color: #11ff76;
+    position: absolute;
+  }
+  @media(max-width: 767px) {
+    .home-feature-card {
+      flex-direction: row;
+    }
+    .home-container1 {
+      flex-direction: column;
+    }
+  }
+  @media(max-width: 479px) {
+    .home-container1 {
+      flex-direction: column;
+    }
+    .home-text08 {
+      font-style: normal;
+      font-weight: 600;
+    }
+  }
+  
