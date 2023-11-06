@@ -1,4 +1,5 @@
 # Setup
+(I've included a demonstration with this repo)
 
 1. Edit the hardhat config file to add your private key and RPC url
 2. Deploy the contract on a test network
